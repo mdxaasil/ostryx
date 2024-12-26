@@ -1,0 +1,10 @@
+/build/
+
+.vscode/
+
+*.bak
+*.tmp
+*.log
+
+*.bin
+*.img
