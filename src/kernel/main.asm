@@ -19,7 +19,7 @@ puts:
     or al, al           ; verify if next char. is null
     jz .done
 
-    mov ah, 0x0e        ; call bios interrupt(video)
+    mov ah, 0x0E        ; call bios interrupt(video)
     mov bh, 0
     int 0x10
 
